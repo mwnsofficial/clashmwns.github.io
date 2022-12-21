@@ -6,6 +6,13 @@ url: "https://mwnsofficial.github.io/clashmwns.github.io/"
 twitter_username: 
 github_username:  mwnsofficial
 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
 plugins:
   - jekyll-feed
 
