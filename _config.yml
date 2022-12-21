@@ -9,7 +9,15 @@ github_username:  mwnsofficial
 defaults:
   -
     scope:
+      path: "pages"
+    values:
+      layout: "default"
+
+defaults:
+  -
+    scope:
       path: ""
+      type: "posts"
     values:
       layout: "default"
 
